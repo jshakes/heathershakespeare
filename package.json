@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "heathershakespeare",
+  "version": "1.0.0",
+  "author": "James Shakespeare <j@jshakespeare.com>",
+  "homepage": "https://heathershakespeare.com",
   "dependencies": {
     "gatsby": "^2.3.5",
     "gatsby-image": "^2.0.37",
@@ -38,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jshakes/heathershakespeare/",
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
