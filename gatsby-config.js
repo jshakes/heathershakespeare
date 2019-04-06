@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Heather Shakespeare`,
+    description: `Heather Shakespeare is a writer and writing for wellbeing facilitator living in the  beautiful Surrey Hills.`,
+    author: `Heather Shakespeare`,
+    siteUrl: 'https://heathershakespeare.com',
+    locale: 'en_UK',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
