@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-gb">
-
 <head>
   <meta charset="utf-8">
   <title>Heather Shakespeare</title>
@@ -16,7 +15,6 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -75,12 +73,13 @@
     <footer class="footer">Heather Shakespeare, 2019</footer>
   </div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6245948-9"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-6245948-9');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
-
 </html>
