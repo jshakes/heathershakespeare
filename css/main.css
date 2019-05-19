@@ -115,7 +115,7 @@ textarea {
 
 body {
 	font-size: 100%;
-	color: #2d2d2d;
+	color: #3c3a3a;
 	border-top: 1em solid #d3cbc7;
 	font-family: "Geomanist", "Helvetica Neue", Arial, sans-serif;
 }
@@ -152,11 +152,11 @@ li:last-child {
 }
 
 a {
-	color: #29a9a5;
+	color: #24827f;
 }
 
 a:hover {
-	color: #0e807c;
+	color: #1a5856;
 }
 
 /* Layout */
@@ -235,7 +235,7 @@ a:hover {
 
 .blockquote__quote > *:first-child::before {
 	content: '“';
-	color: #29a9a5;
+	color: #24827f;
 	position: absolute;
 	right: 100%;
 	top: 0;
@@ -267,6 +267,12 @@ a:hover {
 
 .blockquote__source::before {
 	content: '—';
+}
+
+/* Block image */
+
+.block-image {
+	margin: 2.5em 0;
 }
 
 /* Intro */
